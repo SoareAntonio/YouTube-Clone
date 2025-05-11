@@ -62,7 +62,7 @@ p{
 .profile {
   width: 200px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  display: inline-block;
+  
   margin: 15px;
   vertical-align: top;
 }
@@ -76,9 +76,12 @@ p{
   font-size: 18px;
   font-weight: bold;
   margin-left: 8px;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 .mutual-friends-row {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
   margin-left: 8px;
   margin-bottom: 10px;
 }
@@ -92,8 +95,7 @@ p{
 }
 .mutual-friends {
   color: rgb(100, 100, 100);
-  display: inline-block;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 .add-friend-button {
   background-color: rgb(24, 119, 242);
@@ -105,4 +107,11 @@ p{
   margin-left: 8px;
   margin-bottom: 10px;
   cursor: pointer;
+}
+
+.grid-profile{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 20px;
+  align-items: center;
 }

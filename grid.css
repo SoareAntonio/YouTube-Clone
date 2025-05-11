@@ -1,28 +1,12 @@
-p {
-  font-family: Arial;
-  margin-top: 0;
-  margin-bottom: 0;
+.grid {
+  display: grid;
+  grid-template-columns: 200px 75px;
 }
 
-.price {
-  font-size: 32px;
-  margin-bottom: 5px;
+.lightblue {
+  background-color: lightblue;
 }
 
-.currency {
-  font-size: 16px;
-  color: rgb(100, 100, 100);
-}
-
-.change {
-  color: rgb(24, 128, 56);
-  margin-bottom: 8px;
-}
-
-.after-hours {
-  color: rgb(100, 100, 100);
-}
-
-.after-hours-change {
-  color: rgb(235, 39, 39);
+.lightpink {
+  background-color: lightpink;
 }
