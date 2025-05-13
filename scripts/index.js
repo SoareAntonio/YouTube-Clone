@@ -1,5 +1,5 @@
 const channels=[{
-    thumbnailSrc: "images/thumbnails/thumbnail-1.webp",
+    thumbnailSrc: "./images/thumbnails/thumbnail-1.webp",
     videoTime: "14:23",
     videoLink: "https://www.youtube.com/watch?v=n2RNcPRtAiY",
     profilePicture: "./images/channel-pictures/channel-1.jpg",
@@ -12,7 +12,7 @@ const channels=[{
     subscriberCount: "15M"
   },
 {
-    thumbnailSrc: "images/thumbnails/thumbnail-2.avif",
+    thumbnailSrc: "./images/thumbnails/thumbnail-2.avif",
     videoTime: "8:51",
     videoLink: "https://www.youtube.com/watch?v=FwHu3122pbc",
     profilePicture: "./images/channel-pictures/channel-2.jpg",
@@ -25,7 +25,7 @@ const channels=[{
     subscriberCount: "22.3K"
   },
 {
-    thumbnailSrc: "images/thumbnails/thumbnail-3.avif",
+    thumbnailSrc: "./images/thumbnails/thumbnail-3.avif",
     videoTime: "1:39",
     videoLink: "https://www.youtube.com/watch?v=wzSTWbv7XlY",
     profilePicture: "./images/channel-pictures/channel-3.jpg",
@@ -38,7 +38,7 @@ const channels=[{
     subscriberCount: "43.3K",
   },
 {
-    thumbnailSrc: "images/thumbnails/thumbnail-4.avif",
+    thumbnailSrc: "./images/thumbnails/thumbnail-4.avif",
     videoTime: "0:58",
     videoLink: "https://www.youtube.com/watch?v=rR4n-0KYeKQ",
     profilePicture: "./images/channel-pictures/channel-4.jpg",
@@ -51,11 +51,11 @@ const channels=[{
     subscriberCount: "2.3M"
   },
 {
-    thumbnailSrc: "images/thumbnails/thumbnail-5.avif",
+    thumbnailSrc: "./images/thumbnails/thumbnail-5.avif",
     videoTime: "6:45",
     videoLink: "https://www.youtube.com/watch?v=UHyX9zBluMw&t=1s",
     profilePicture: "./images/channel-pictures/channel-5.jpg",
-    profilePictureTooltip: "/images/channel-pictures/channel-5.jpg",
+    profilePictureTooltip: "./images/channel-pictures/channel-5.jpg",
     channelLink: "https://www.youtube.com/@armankhondker",
     title: "Day in the Life of a Software Engineer at TikTok (Seattle)",
     author: "Arman Khondker",
@@ -64,7 +64,7 @@ const channels=[{
     subscriberCount: "29.3K"
   },
 {
-    thumbnailSrc: "images/thumbnails/thumbnail-6.avif",
+    thumbnailSrc: "./images/thumbnails/thumbnail-6.avif",
     videoTime: "7:04",
     videoLink: "https://www.youtube.com/watch?v=97i2BAUw5Xc&t=1s",
     profilePicture: "./images/channel-pictures/channel-6.jpg",
@@ -76,11 +76,11 @@ const channels=[{
     uploaded: "1 years ago",
     subscriberCount: "843K"
   },{
-    thumbnailSrc: "images/thumbnails/thumbnail-7.avif",
+    thumbnailSrc: "./images/thumbnails/thumbnail-7.avif",
     videoTime: "6:31:23",
     videoLink: "https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22066s",
     profilePicture: "./images/channel-pictures/channel-8.jpg",
-    profilePictureTooltip: "/images/channel-pictures/channel-8.jpg",
+    profilePictureTooltip: "./images/channel-pictures/channel-8.jpg",
     channelLink: "https://www.youtube.com/@SuperSimpleDev",
     title: "HTML & CSS Full Course - Beginner to Pro",
     author: "SuperSimpleDev",
@@ -88,11 +88,11 @@ const channels=[{
     uploaded: "3 years ago",
     subscriberCount: "643K"
   },{
-    thumbnailSrc: "images/thumbnails/thumbnail-8.avif",
+    thumbnailSrc: "./images/thumbnails/thumbnail-8.avif",
     videoTime: "10:35",
     videoLink: "https://www.youtube.com/watch?v=XQeKBLRPpxA&t=11s",
     profilePicture: "./images/channel-pictures/channel-7.jpg",
-    profilePictureTooltip: "/images/channel-pictures/channel-7.jpg",
+    profilePictureTooltip: "./images/channel-pictures/channel-7.jpg",
     channelLink: "https://www.youtube.com/@ColeCaccamise",
     title: "I tricked my brain to be ADDICTED to coding.",
     author: "Cole Caccamise",
@@ -101,11 +101,11 @@ const channels=[{
     subscriberCount: "47.1K"
   },
 {
-    thumbnailSrc: "images/thumbnails/thumbnail-9.avif",
+    thumbnailSrc: "./images/thumbnails/thumbnail-9.avif",
     videoTime: "23:08",
     videoLink: "https://www.youtube.com/watch?v=BJatgOiiht4&t=4s",
     profilePicture: "./images/channel-pictures/channel-9.jpg",
-    profilePictureTooltip: "/images/channel-pictures/channel-9.jpg",
+    profilePictureTooltip: "./images/channel-pictures/channel-9.jpg",
     channelLink: "https://www.youtube.com/@fknight",
     title: "7 Design Patterns EVERY Developer Should Know",
     author: "ForrestKnight",
@@ -114,11 +114,11 @@ const channels=[{
     subscriberCount: "645K"
   },
 {
-    thumbnailSrc: "images/thumbnails/thumbnail-10.avif",
+    thumbnailSrc: "./images/thumbnails/thumbnail-10.avif",
     videoTime: "12:17",
     videoLink: "https://www.youtube.com/watch?v=E8lXC2mR6-k",
     profilePicture: "./images/channel-pictures/channel-10.jpg",
-    profilePictureTooltip: "/images/channel-pictures/channel-10.jpg",
+    profilePictureTooltip: "./images/channel-pictures/channel-10.jpg",
     channelLink: "https://www.youtube.com/@Nova_Designs_",
     title: "Master React JS in easy way",
     author: "Nova Designs",
@@ -127,11 +127,11 @@ const channels=[{
     subscriberCount: "212K"
   },
 {
-    thumbnailSrc: "images/thumbnails/thumbnail-11.avif",
+    thumbnailSrc: "./images/thumbnails/thumbnail-11.avif",
     videoTime: "5:44",
     videoLink: "https://www.youtube.com/watch?v=J0NuOlA2xDc&t=59s",
     profilePicture: "./images/channel-pictures/channel-11.jpg",
-    profilePictureTooltip: "/images/channel-pictures/channel-11.jpg",
+    profilePictureTooltip: "./images/channel-pictures/channel-11.jpg",
     channelLink: "https://www.youtube.com/@coderized",
     title: "Never install locally",
     author: "Codorized",
@@ -140,11 +140,11 @@ const channels=[{
     subscriberCount: "186K"
   },
 {
-    thumbnailSrc: "images/thumbnails/thumbnail-12.avif",
+    thumbnailSrc: "./images/thumbnails/thumbnail-12.avif",
     videoTime: "21:58",
     videoLink: "https://www.youtube.com/watch?v=cuHDQhDhvPE&t=562s",
     profilePicture: "./images/channel-pictures/channel-12.jpg",
-    profilePictureTooltip: "/images/channel-pictures/channel-12.jpg",
+    profilePictureTooltip: "./images/channel-pictures/channel-12.jpg",
     channelLink: "https://www.youtube.com/@Fireship",
     title: "I built the same app 10 times // Which JS Framework is best?",
     author: "Fireship",
